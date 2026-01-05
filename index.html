@@ -2,184 +2,69 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<title>WOOFY Conciergerie Animalière</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WOOFY Conciergerie Animalière</title>
 
-<style>
-body{
-  margin:0;
-  font-family:Arial, Helvetica, sans-serif;
-  background:#f6f6f6;
-  color:#222;
-}
-
-/* ===== HEADER + MENU ===== */
-header{
-  background:#f3efe8;
-  border-bottom:1px solid #ddd;
-}
-
-.navbar{
-  max-width:1200px;
-  margin:auto;
-  padding:20px;
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-}
-
-.navbar img{
-  max-width:200px;
-}
-
-nav a{
-  margin-left:22px;
-  text-decoration:none;
-  color:#222;
-  font-weight:bold;
-}
-
-nav a:hover{
-  text-decoration:underline;
-}
-
-/* ===== HERO ===== */
-.hero{
-  text-align:center;
-  padding:60px 20px;
-  background:#f3efe8;
-}
-
-.hero h1{
-  font-size:34px;
-  margin-bottom:10px;
-}
-
-.hero p{
-  max-width:700px;
-  margin:0 auto 25px;
-  font-size:16px;
-}
-
-.btn{
-  display:inline-block;
-  background:#111;
-  color:#fff;
-  padding:14px 28px;
-  text-decoration:none;
-  border-radius:30px;
-  font-weight:bold;
-}
-
-/* ===== CONTENU ===== */
-main{
-  max-width:1100px;
-  margin:auto;
-  padding:50px 20px;
-}
-
-.section{
-  background:#fff;
-  padding:40px;
-  margin-bottom:40px;
-  border-radius:16px;
-}
-
-.section h2{
-  margin-top:0;
-}
-
-/* ===== PHOTOS ===== */
-.photos{
-  display:flex;
-  gap:30px;
-  justify-content:center;
-  margin-top:30px;
-}
-
-.photos img{
-  width:100%;
-  max-width:420px;
-  border-radius:18px;
-}
-
-/* ===== FOOTER ===== */
-footer{
-  background:#111;
-  color:#fff;
-  text-align:center;
-  padding:20px;
-  font-size:14px;
-}
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-  <div class="navbar">
-    <img src="logo.png" alt="WOOFY Conciergerie Animalière">
-    <nav>
-      <a href="index.html">Accueil</a>
-      <a href="garde-visites.html">Garde & visites</a>
-      <a href="livraison-croquettes.html">Livraison croquettes</a>
-      <a href="transport-animaux.html">Transport animaux</a>
-      <a href="conditions.html">CGS</a>
-    </nav>
-  </div>
+  <img src="images/logo.png" alt="WOOFY Conciergerie">
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="garde-visite.html">Garde & Visite</a>
+    <a href="livraison.html">Livraison</a>
+    <a href="transport.html">Transport</a>
+    <a href="cgs.html">CGS</a>
+  </nav>
 </header>
 
-<section class="hero">
-  <h1>WOOFY Conciergerie Animalière</h1>
-  <p>
-    Conciergerie animalière professionnelle à Marcoussis et environs.<br>
-    Garde – Visites – Transport – Livraison rapide de croquettes.
-  </p>
-  <a class="btn" href="https://wa.me/33629771911">Contact WhatsApp</a>
-</section>
+<div class="container">
 
-<main>
+<h1>WOOFY Conciergerie Animalière</h1>
 
-<section class="section">
-  <h2>Présentation</h2>
-  <p>
-    WOOFY Conciergerie Animalière accompagne les propriétaires d’animaux
-    avec des services personnalisés, sérieux et respectueux du bien-être
-    de chaque compagnon.
-  </p>
-  <p>
-    Diplômée <strong>ACACED</strong> et <strong>TAV – premiers secours canins</strong>,
-    avec des expériences professionnelles en <strong>SPA</strong>,
-    <strong>fourrière</strong>, <strong>chenil</strong> et
-    <strong>chiens guides d’aveugles</strong>.
-  </p>
+<p>
+Conciergerie animalière professionnelle à Marcoussis et alentours.
+Tous les services sont réalisés avec sérieux, bienveillance et respect
+du bien-être animal, directement au domicile du propriétaire ou en déplacement sécurisé.
+</p>
 
-  <!-- PHOTOS -->
-  <div class="photos">
-    <img src="photo1.jpg" alt="Conciergerie animalière Woofy">
-    <img src="photo2.jpg" alt="Garde et visites à domicile">
-  </div>
-</section>
+<h2>À propos</h2>
+<p>
+Diplômée ACACED et TAV (premiers secours canins).
+Expériences professionnelles : SPA, fourrière, chiens guides d’aveugles,
+chenil. Une approche responsable, humaine et adaptée à chaque animal.
+</p>
 
-<section class="section">
-  <h2>Informations importantes</h2>
-  <ul>
-    <li>📩 Devis envoyé avant toute confirmation</li>
-    <li>💳 Paiement intégral obligatoire avant toute réservation</li>
-    <li>📱 Contact unique via WhatsApp</li>
-    <li>🚨 Pour un transport urgent, écrire <strong>URGENCE</strong> dans le message</li>
-    <li>🎁 Code promo nouveaux clients : <strong>WOOFY10</strong></li>
-  </ul>
-</section>
+<div class="photos">
+  <img src="images/photo1.jpg">
+  <img src="images/photo2.jpg">
+  <img src="images/photo3.jpg">
+</div>
 
-</main>
+<h2>Fonctionnement</h2>
+<ul>
+<li>📲 Contact unique via WhatsApp</li>
+<li>📄 Devis envoyé par message avant toute confirmation</li>
+<li>💳 Aucune réservation sans paiement intégral</li>
+<li>🐾 +5€ par animal supplémentaire pour chaque service</li>
+</ul>
+
+<p>
+🎁 <strong>Code promo premier client : WOOFYFIRST</strong>  
+(Code à indiquer impérativement sur WhatsApp)
+</p>
+
+</div>
+
+<a class="whatsapp-btn" href="https://wa.me/33629771911">WhatsApp</a>
 
 <footer>
-  © WOOFY Conciergerie Animalière – SIRET 943 494 294
+SIRET : 943 494 294 – WOOFY Conciergerie
 </footer>
 
 </body>
 </html>
-
-
-
